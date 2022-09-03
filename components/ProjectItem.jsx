@@ -4,9 +4,9 @@ import Link from "next/link";
 
 const ProjectItem = ({ title, backgroundImg, tech, projectUrl }) => {
   return (
-    <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-2 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
+    <div className="relative flex items-center justify-center h-200px w-full shadow-xl shadow-gray-400 rounded-xl p-2 group hover:bg-gradient-to-r from-[#5651e5] to-[#709dff]">
       <Image
-        className="rounded-xl group-hover:opacity-10"
+        className="rounded-xl group-hover:opacity-10 h-full"
         src={backgroundImg}
         alt="/"
       />
@@ -16,7 +16,7 @@ const ProjectItem = ({ title, backgroundImg, tech, projectUrl }) => {
         </h3>
         <p className="pb-4 pt-2 text-white text-center">{tech}</p>
         <Link href={projectUrl}>
-          <p className="text-center py-3 rounded-lg bg-white text-gray-700 font-bold text-lg cursor-pointer hover:scale-105 ease-in duration-200">
+          <p className="text-center w-[120px] py-3 rounded-lg bg-white text-gray-700 m-auto font-bold text-lg cursor-pointer hover:scale-105 ease-in duration-200">
             More Info
           </p>
         </Link>

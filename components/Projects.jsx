@@ -4,6 +4,7 @@ import crytoImg from "../public/assets/projects/crypto.jpg";
 import netflixImg from "../public/assets/projects/netflix.jpg";
 import twitchImg from "../public/assets/projects/twitch.jpg";
 import smartBrainImg from "../public/assets/projects/smart-brain.png";
+import animeDatabaseImg from "../public/assets/projects/animedatabase.png";
 
 const Projects = () => {
   return (
@@ -22,21 +23,21 @@ const Projects = () => {
           />
           <ProjectItem
             title="Crypto App"
-            backgroundImg={crytoImg}
+            backgroundImg={smartBrainImg}
             tech="React Js"
             projectUrl="/cryto"
           />
           <ProjectItem
             title="Netflix Clone"
-            backgroundImg={netflixImg}
+            backgroundImg={smartBrainImg}
             tech="React Js"
             projectUrl="/netflix"
           />
           <ProjectItem
-            title="Twitch Clone"
-            backgroundImg={twitchImg}
+            title="The Anime Database"
+            backgroundImg={animeDatabaseImg}
             tech="React Js"
-            projectUrl="/twitch"
+            projectUrl="/theanimedatabase"
           />
         </div>
       </div>
