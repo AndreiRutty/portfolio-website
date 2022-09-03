@@ -3,10 +3,12 @@ import Link from "next/link";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import ParticlesContainer from "./ParticlesContainer";
 
 const Main = () => {
   return (
     <div id="home" className="w-full h-screen text-center">
+      <ParticlesContainer />
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
           <p className="uppercase text-sm tracking-widest text-gray-600">
@@ -37,7 +39,11 @@ const Main = () => {
               </Link>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <Link href="/#contact"><a><AiOutlineMail /></a></Link>
+              <Link href="/#contact">
+                <a>
+                  <AiOutlineMail />
+                </a>
+              </Link>
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
               <BsFillPersonLinesFill />

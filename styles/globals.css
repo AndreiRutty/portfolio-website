@@ -12,9 +12,10 @@ html {
   font-family: "Inspiration";
 }
 
-html {
-  scroll-behavior: smooth;
-  /* font-family: 'Raleway', sans-serif; */
+#tsparticles {
+  position: fixed;
+  top: 0;
+  z-index: -10;
 }
 
 @layer base {
