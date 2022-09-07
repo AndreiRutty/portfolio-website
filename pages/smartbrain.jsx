@@ -29,8 +29,8 @@ const property = () => {
           <p>
             A smart brain web application with the help of the clarifai API which detects face in an image.
           </p>
-          <Link href="https://andreirutty.github.io/smart-brain/"><a target="_blank" rel="noopener noreferrer"><button className="px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-250">Demo</button></a></Link>
-          <Link href="https://github.com/AndreiRutty/smart-brain/tree/master"><a  target="_blank" rel="noopener noreferrer"><button className="px-8 py-2 mt-4 hover:scale-105 ease-in duration-250">Code</button></a></Link>
+          <Link href="https://andreirutty.github.io/smart-brain/"><a target="_blank" rel="noopener noreferrer"><button className="px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-[250ms] submit_button">Demo</button></a></Link>
+          <Link href="https://github.com/AndreiRutty/smart-brain/tree/master"><a  target="_blank" rel="noopener noreferrer"><button className="px-8 py-2 mt-4 hover:scale-105 ease-in duration-[250ms] submit_button">Code</button></a></Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">

@@ -4,7 +4,6 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -12,6 +11,7 @@ const Navbar = () => {
   const [navBg, setNavBg] = useState("#ecf0f3");
   const [linkColor, setLinkColor] = useState("#1f2937");
   const router = useRouter();
+
 
   useEffect(() => {
     if (router.asPath === "/property") {
@@ -44,35 +44,35 @@ const Navbar = () => {
       className={
         shadow
           ? "fixed  w-full h-24 shadow-xl z-[100] ease-in-out duration-300"
-          : "fixed bg-[#ecf0f3] w-full h-24 z-[100]"
+          : "fixed bg-[#ecf0f3]  w-full h-24 z-[100]"
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Logo />
-        <div>
+        <div className="flex justify-center items-center">
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
             <Link href="/">
-              <li className="ml-10 border-b-2 border-[#ecf0f3] text-sm uppercase font-bold hover:border-[#1F2937]">
+              <li className="ml-10 border-b-2 border-[#ecf0f3] text-sm uppercase font-bold hover:border-[#1F2937] ease-linear duration-[250ms]">
                 Home
               </li>
             </Link>
             <Link href="/#about">
-              <li className="ml-10 border-b-2 border-[#ecf0f3] text-sm uppercase font-bold hover:border-[#1F2937]">
+              <li className="ml-10 border-b-2 border-[#ecf0f3] text-sm uppercase font-bold hover:border-[#1F2937] ease-linear duration-[250ms]">
                 About
               </li>
             </Link>
             <Link href="/#skills">
-              <li className="ml-10 border-b-2 border-[#ecf0f3] text-sm uppercase font-bold hover:border-[#1F2937]">
+              <li className="ml-10 border-b-2 border-[#ecf0f3] text-sm uppercase font-bold hover:border-[#1F2937] ease-linear duration-[250ms]">
                 Skills
               </li>
             </Link>
             <Link href="/#projects">
-              <li className="ml-10 border-b-2 border-[#ecf0f3] text-sm uppercase font-bold hover:border-[#1F2937]">
+              <li className="ml-10 border-b-2 border-[#ecf0f3] text-sm uppercase font-bold hover:border-[#1F2937] ease-linear duration-[250ms]">
                 Projects
               </li>
             </Link>
             <Link href="/#contact">
-              <li className="ml-10 border-b-2 border-[#ecf0f3] text-sm uppercase font-bold hover:border-[#1F2937]">
+              <li className="ml-10 border-b-2 border-[#ecf0f3] text-sm uppercase font-bold hover:border-[#1F2937] ease-linear duration-[250ms]">
                 Contact
               </li>
             </Link>
@@ -102,6 +102,7 @@ const Navbar = () => {
           <div>
             <div className="flex w-full items-center justify-between">
               <Logo />
+
               <div
                 onClick={handleNav}
                 className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-200"
@@ -143,6 +144,7 @@ const Navbar = () => {
                 </li>
               </Link>
             </ul>
+
             <div className="pt-36 pb-4">
               <p className="uppercase tracking-widest text-[#5651e5]">
                 {"Let's Connect"}

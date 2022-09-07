@@ -32,14 +32,14 @@ const property = () => {
           </p>
           <Link href="https://andreirutty.github.io/anime-database/">
             <a target="_blank" rel="noopener noreferrer">
-              <button className="px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-250">
+              <button className="px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-[250ms] submit_button">
                 Demo
               </button>
             </a>
           </Link>
           <Link href="https://github.com/AndreiRutty/anime-database/tree/master">
             <a target="_blank" rel="noopener noreferrer">
-              <button className="px-8 py-2 mt-4 hover:scale-105 ease-in duration-250">
+              <button className="px-8 py-2 mt-4 hover:scale-105 ease-in duration-[250ms] submit_button">
                 Code
               </button>
             </a>
@@ -55,7 +55,7 @@ const property = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                SCSS/SASS
+                SCSS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
