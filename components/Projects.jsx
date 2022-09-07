@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
 import crytoImg from "../public/assets/projects/crypto.jpg";
-import netflixImg from "../public/assets/projects/netflix.jpg";
+import netflixImg from "../public/assets/projects/netflixii.png";
 import twitchImg from "../public/assets/projects/twitch.jpg";
 import smartBrainImg from "../public/assets/projects/smart-brain.png";
 import animeDatabaseImg from "../public/assets/projects/animedatabase.png";
@@ -28,10 +28,10 @@ const Projects = () => {
             projectUrl="/cryto"
           />
           <ProjectItem
-            title="Netflix Clone"
-            backgroundImg={smartBrainImg}
+            title="Netflix II"
+            backgroundImg={netflixImg}
             tech="React Js"
-            projectUrl="/netflix"
+            projectUrl="/netflixii"
           />
           <ProjectItem
             title="The Anime Database"

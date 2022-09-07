@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import animeDatabaseImg from "../public/assets/projects/animedatabase.png";
+import netflixImg from "../public/assets/projects/netflix.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 
 const property = () => {
@@ -13,12 +13,12 @@ const property = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={animeDatabaseImg}
+          src={netflixImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">The Anime Database</h2>
-          <h3>React JS </h3>
+          <h2 className="py-2">Netflix II</h2>
+          <h3>React JS / Tailwind CSS / Firebase</h3>
         </div>
       </div>
 
@@ -26,20 +26,21 @@ const property = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>
-            I built this application in React JS and is hosted on Github Pages.
-            This application is pulling anime data from the Jikan API and
-            displaying movies or series of a particular anime as well as the top
-            animes.
-          </p>
-          <Link href="https://andreirutty.github.io/anime-database/">
+          <p>I built this application in React JS and is hosted on Netlify.
+            This app features user authentication with firebase as well as the
+            firestore cloud storage database. This application is pulling movie
+            data from an the IMDB movie API and displaying different categories.
+            It features horizontal sliding and a featured selection. The
+            useContext hook is also being implemented for app-wide state
+            management.</p>
+          <Link href="https://netflixii.netlify.app/">
             <a target="_blank" rel="noopener noreferrer">
               <button className="px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-[250ms] submit_button">
                 Demo
               </button>
             </a>
           </Link>
-          <Link href="https://github.com/AndreiRutty/anime-database/tree/master">
+          <Link href="https://github.com/AndreiRutty/netflix-clone">
             <a target="_blank" rel="noopener noreferrer">
               <button className="px-8 py-2 mt-4 hover:scale-105 ease-in duration-[250ms] submit_button">
                 Code
@@ -57,11 +58,15 @@ const property = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                SCSS
+                Tailwind CSS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Jikan API
+                Firebase
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                IMDB movie API
               </p>
             </div>
           </div>

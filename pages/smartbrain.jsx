@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Link from 'next/link';
+import Link from "next/link";
 import smartbrainImg from "../public/assets/projects/smart-brain.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 
@@ -27,25 +27,56 @@ const property = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            A smart brain web application with the help of the clarifai API which detects face in an image.
+            I build the frontend with React JS and the backend with NodeJs and
+            Express. The database was built with Postgre SQL .This app features
+            face detection with the help of the Clarifai Face Detection API. It
+            also includes user registration and authentication keeping track on
+            the number of user entires.
           </p>
-          <Link href="https://andreirutty.github.io/smart-brain/"><a target="_blank" rel="noopener noreferrer"><button className="px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-[250ms] submit_button">Demo</button></a></Link>
-          <Link href="https://github.com/AndreiRutty/smart-brain/tree/master"><a  target="_blank" rel="noopener noreferrer"><button className="px-8 py-2 mt-4 hover:scale-105 ease-in duration-[250ms] submit_button">Code</button></a></Link>
+          <Link href="https://andreirutty.github.io/smart-brain/">
+            <a target="_blank" rel="noopener noreferrer">
+              <button className="px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-[250ms] submit_button">
+                Demo
+              </button>
+            </a>
+          </Link>
+          <Link href="https://github.com/AndreiRutty/smart-brain/tree/master">
+            <a target="_blank" rel="noopener noreferrer">
+              <button className="px-8 py-2 mt-4 hover:scale-105 ease-in duration-[250ms] submit_button">
+                Code
+              </button>
+            </a>
+          </Link>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
-              <p className="text-gray-600 py-2 flex items-center"><RiRadioButtonFill className="pr-1"/>React</p>
-              <p className="text-gray-600 py-2 flex items-center"><RiRadioButtonFill className="pr-1"/>Node JS</p>
-              <p className="text-gray-600 py-2 flex items-center"><RiRadioButtonFill className="pr-1"/>Express</p>
-              <p className="text-gray-600 py-2 flex items-center"><RiRadioButtonFill className="pr-1"/>Clarifai API</p>
-              <p className="text-gray-600 py-2 flex items-center"><RiRadioButtonFill className="pr-1"/>PostgreSQL</p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                React
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                Node JS
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                Express
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                Clarifai API
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                PostgreSQL
+              </p>
             </div>
           </div>
         </div>
-        <Link href='/#projects'>
-            <p className='underline cursor-pointer'>Back</p>
+        <Link href="/#projects">
+          <p className="underline cursor-pointer">Back</p>
         </Link>
       </div>
     </div>
