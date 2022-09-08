@@ -1,8 +1,6 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
-import crytoImg from "../public/assets/projects/crypto.jpg";
 import netflixImg from "../public/assets/projects/netflixii.png";
-import twitchImg from "../public/assets/projects/twitch.jpg";
 import smartBrainImg from "../public/assets/projects/smart-brain.png";
 import animeDatabaseImg from "../public/assets/projects/animedatabase.png";
 

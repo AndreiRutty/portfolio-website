@@ -39,9 +39,9 @@ const Contact = () => {
         <h2 className="py-4">Get In Touch</h2>
         <div className="grid lg:grid-cols-5 gap-8">
           {/* left */}
-          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
+          <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl glass-effect shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full">
-              <div className="hover:scale-105 ease-in duration-300">
+              <div className="hover:scale-105 ease-in duration-[250ms]">
                 <Image className="rounded-xl " src={contactImg} alt="/" />
               </div>
 
@@ -56,21 +56,21 @@ const Contact = () => {
               <div>
                 <p className="uppercase pt-8">Connect with Me</p>
                 <div className="flex items-center justify-around py-4">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-[250ms]">
                     <Link href="https://www.linkedin.com/in/andrei-rutty-049533223/">
                       <a target="_blank">
                         <FaLinkedinIn />
                       </a>
                     </Link>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-[250ms]">
                     <Link href="https://github.com/AndreiRutty">
                       <a target="_blank">
                         <FaGithub />
                       </a>
                     </Link>
                   </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-[250ms]">
                     <Link href="https://www.facebook.com/profile.php?id=100008701571928">
                       <a target="_blank">
                         <FaFacebookF />
@@ -83,7 +83,7 @@ const Contact = () => {
           </div>
 
           {/* right */}
-          <div className="col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4">
+          <div className="col-span-3 w-full h-auto shadow-xl glass-effect shadow-gray-400 rounded-xl lg:p-4">
             <div className="p-4">
               <form ref={form} onSubmit={sendEmail}>
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
@@ -152,7 +152,7 @@ const Contact = () => {
         </div>
         <div className="flex justify-center py-12">
           <Link href="/">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
+            <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-[250ms]">
               <HiOutlineChevronDoubleUp className="text-[#5651e5]" size={30} />
             </div>
           </Link>

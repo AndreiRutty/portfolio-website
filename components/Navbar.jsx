@@ -15,7 +15,7 @@ const Navbar = () => {
 
   useEffect(() => {
     if (router.asPath === "/property") {
-      setNavBg("transparent");
+      setNavBg("glass-effect");
       setLinkColor("#ecf0f3");
     } else {
       setNavBg("#ecf0f3");
@@ -43,8 +43,8 @@ const Navbar = () => {
       style={{ backgroundColor: `${navBg}` }}
       className={
         shadow
-          ? "fixed  w-full h-24 shadow-xl z-[100] ease-in-out duration-300"
-          : "fixed bg-[#ecf0f3]  w-full h-24 z-[100]"
+          ? "fixed  w-full h-24 shadow-xl z-[100] ease-in-out duration-[250ms]"
+          : "fixed  w-full h-24 z-[100]"
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">

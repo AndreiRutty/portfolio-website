@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
-import { BsFillPersonLinesFill } from "react-icons/bs";
+import { BsFillFileEarmarkTextFill } from "react-icons/bs";
 import ParticlesContainer from "./ParticlesContainer";
 
 const Main = () => {
@@ -24,29 +24,29 @@ const Main = () => {
             front-end web applications while learning back-end technologies.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+            <div className="rounded-full shadow-lg bg-white shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-[250ms]">
               <Link href="https://www.linkedin.com/in/andrei-rutty-049533223/">
                 <a target="_blank">
                   <FaLinkedinIn />
                 </a>
               </Link>
             </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+            <div className="rounded-full shadow-lg bg-white shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-[250ms]">
               <Link href="https://github.com/AndreiRutty">
                 <a target="_blank">
                   <FaGithub />
                 </a>
               </Link>
             </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+            <div className="rounded-full shadow-lg bg-white shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-[250ms]">
               <Link href="/#contact">
                 <a>
                   <AiOutlineMail />
                 </a>
               </Link>
             </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <BsFillPersonLinesFill />
+            <div className="rounded-full shadow-lg bg-white shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-[250ms]">
+              <BsFillFileEarmarkTextFill />
             </div>
           </div>
         </div>
