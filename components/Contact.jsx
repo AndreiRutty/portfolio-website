@@ -6,6 +6,7 @@ import { FaGithub, FaLinkedinIn, FaFacebookF } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 import emailjs from "@emailjs/browser";
+import Footer from "./Footer";
 
 const Contact = () => {
   const form = React.createRef();
@@ -152,12 +153,13 @@ const Contact = () => {
         </div>
         <div className="flex justify-center py-12">
           <Link href="/">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-[250ms]">
+            <div className="rounded-full glass-effect shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-[250ms]">
               <HiOutlineChevronDoubleUp className="text-[#5651e5]" size={30} />
             </div>
           </Link>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
