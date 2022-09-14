@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { AiOutlineMenu, AiOutlineClose, AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import 'animate.css';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -50,7 +51,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Logo />
         <div className="flex justify-center items-center">
-          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
+          <ul style={{ color: `${linkColor}` }} className="animate__animated animate__fadeInRight hidden md:flex">
             <Link href="/">
               <li className="ml-10 border-b-2 border-[#ecf0f3] text-sm uppercase font-bold hover:border-[#1F2937] ease-linear duration-[250ms]">
                 Home
