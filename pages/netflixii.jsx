@@ -26,13 +26,13 @@ const property = () => {
         <div className="col-span-4">
           <p>Project</p>
           <h2>Overview</h2>
-          <p>I built this application in React JS and is hosted on Netlify.
-            This app features user authentication with firebase as well as the
+          <p>
+            I built this application in React JS and is hosted on Netlify. This
+            app features user authentication with firebase as well as the
             firestore cloud storage database. This application is pulling movie
             data from an the IMDB movie API and displaying different categories.
-            It features horizontal sliding and a featured selection. The
-            useContext hook is also being implemented for app-wide state
-            management.</p>
+            It also features horizontal sliding and a featured selection.
+          </p>
           <Link href="https://netflixii.netlify.app/">
             <a target="_blank" rel="noopener noreferrer">
               <button className="px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-[250ms] submit_button">

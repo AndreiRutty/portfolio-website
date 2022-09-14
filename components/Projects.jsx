@@ -16,7 +16,7 @@ const Projects = () => {
           <ProjectItem
             title="Smart Brain"
             backgroundImg={smartBrainImg}
-            tech="React Js"
+            tech="React Js & Node Js"
             projectUrl="/smartbrain"
           />
           <ProjectItem
@@ -28,7 +28,7 @@ const Projects = () => {
           <ProjectItem
             title="Netflix II"
             backgroundImg={netflixImg}
-            tech="React Js"
+            tech="React Js & Firebase"
             projectUrl="/netflixii"
           />
           <ProjectItem

@@ -30,7 +30,7 @@ const property = () => {
             I build the frontend with React JS and the backend with NodeJs and
             Express. The database was built with Postgre SQL .This app features
             face detection with the help of the Clarifai Face Detection API. It
-            also includes user registration and authentication keeping track on
+            also includes user registration and authentication keeping track of
             the number of user entires.
           </p>
           <Link href="https://andreirutty.github.io/smart-brain/">
