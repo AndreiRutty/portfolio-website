@@ -27,11 +27,9 @@ const SmartBrain = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I build the frontend with React JS and the backend with NodeJs and
-            Express. The database was built with Postgre SQL .This app features
-            face detection with the help of the Clarifai Face Detection API. It
-            also includes user registration and authentication keeping track of
-            the number of user entires.
+            A Full-Stack application featuring face detection with the help of
+            the Clarifai Face Detection API. It also features user registration
+            and authentication. It keeps track on the entry count for each face detected.
           </p>
           <Link href="https://andreirutty.github.io/smart-brain/">
             <a target="_blank" rel="noopener noreferrer">
