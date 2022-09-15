@@ -4,7 +4,7 @@ import Link from "next/link";
 import animeDatabaseImg from "../public/assets/projects/animedatabase.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 
-const property = () => {
+const AnimeDatabase = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -74,4 +74,4 @@ const property = () => {
   );
 };
 
-export default property;
+export default AnimeDatabase;

@@ -3,6 +3,7 @@ import ProjectItem from "./ProjectItem";
 import netflixImg from "../public/assets/projects/netflixii.png";
 import smartBrainImg from "../public/assets/projects/smart-brain.png";
 import animeDatabaseImg from "../public/assets/projects/animedatabase.png";
+import portfolioImg from '../public/assets/projects/portfolio.png';
 
 const Projects = () => {
   return (
@@ -20,10 +21,10 @@ const Projects = () => {
             projectUrl="/smartbrain"
           />
           <ProjectItem
-            title="Crypto App"
-            backgroundImg={smartBrainImg}
-            tech="React Js"
-            projectUrl="/cryto"
+            title="Portfolio Website"
+            backgroundImg={portfolioImg}
+            tech="Next Js"
+            projectUrl="/portfolio"
           />
           <ProjectItem
             title="Netflix II"

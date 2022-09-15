@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import netflixImg from "../public/assets/projects/netflix.jpg";
+import portfolioImg from "../public/assets/projects/portfolio.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 
-const NetflixII = () => {
+const Portfolio = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -13,12 +13,12 @@ const NetflixII = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={netflixImg}
+          src={portfolioImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Netflix II</h2>
-          <h3>React JS / Tailwind CSS / Firebase</h3>
+          <h2 className="py-2">Portfolio Website</h2>
+          <h3>Next Js / Tailwind</h3>
         </div>
       </div>
 
@@ -27,20 +27,16 @@ const NetflixII = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this application in React JS and is hosted on Netlify. This
-            app features user authentication with firebase as well as the
-            firestore cloud storage database. This application is pulling movie
-            data from an the IMDB movie API and displaying different categories.
-            It also features horizontal sliding and a featured selection.
+            A personal portfolio website built with Next Js and Tailwind CSS showcasing my web development skills and projects.
           </p>
-          <Link href="https://netflixii.netlify.app/">
+          <Link href="https://github.com/AndreiRutty/portfolio-website">
             <a target="_blank" rel="noopener noreferrer">
               <button className="px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-[250ms] submit_button">
                 Demo
               </button>
             </a>
           </Link>
-          <Link href="https://github.com/AndreiRutty/netflix-clone">
+          <Link href="https://github.com/AndreiRutty/portfolio-website">
             <a target="_blank" rel="noopener noreferrer">
               <button className="px-8 py-2 mt-4 hover:scale-105 ease-in duration-[250ms] submit_button">
                 Code
@@ -54,19 +50,11 @@ const NetflixII = () => {
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                React
+                Next Js
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
                 Tailwind CSS
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                Firebase
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                IMDB movie API
               </p>
             </div>
           </div>
@@ -79,4 +67,4 @@ const NetflixII = () => {
   );
 };
 
-export default NetflixII;
+export default Portfolio;

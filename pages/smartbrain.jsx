@@ -4,7 +4,7 @@ import Link from "next/link";
 import smartbrainImg from "../public/assets/projects/smart-brain.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 
-const property = () => {
+const SmartBrain = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -83,4 +83,4 @@ const property = () => {
   );
 };
 
-export default property;
+export default SmartBrain;
