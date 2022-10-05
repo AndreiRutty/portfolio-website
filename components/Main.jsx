@@ -3,7 +3,7 @@ import Link from "next/link";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillFileEarmarkTextFill } from "react-icons/bs";
-import 'animate.css';
+import "animate.css";
 
 const Main = () => {
   return (
@@ -16,7 +16,9 @@ const Main = () => {
           <h1 className="animate__animated animate__fadeInUp py-4 text-gray-700">
             Hi, I&#39;m <span className="text-[#5651e5]"> Andrei</span>
           </h1>
-          <h1 className="animate__animated animate__fadeInUp animate__delay-1s py-2 text-gray-700">A Web Developer.</h1>
+          <h1 className="animate__animated animate__fadeInUp animate__delay-1s py-2 text-gray-700">
+            A Web Developer.
+          </h1>
           <p className="animate__animated animate__fadeInUp animate__delay-2s py-4 text-gray-600 max-w-[70%] m-auto">
             I&#39;m a Web Develoer specializing in building exceptional digital
             experiences. Currently, I&#39;m focused on building responsive
@@ -45,7 +47,11 @@ const Main = () => {
               </Link>
             </div>
             <div className="rounded-full shadow-lg bg-white shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-[250ms]">
-              <BsFillFileEarmarkTextFill />
+              <Link href="https://docs.google.com/document/d/1fqTRcmzYrbxwgV71pWz_nxNqLW2eZTulw4BeVr-UMo8/edit">
+                <a target="_blank">
+                  <BsFillFileEarmarkTextFill />
+                </a>
+              </Link>
             </div>
           </div>
         </div>
