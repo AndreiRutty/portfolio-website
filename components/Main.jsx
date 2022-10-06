@@ -47,11 +47,9 @@ const Main = () => {
               </Link>
             </div>
             <div className="rounded-full shadow-lg bg-white shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-[250ms]">
-              <Link href="https://docs.google.com/document/d/1fqTRcmzYrbxwgV71pWz_nxNqLW2eZTulw4BeVr-UMo8/edit">
-                <a target="_blank">
+                <a href="/Resume.pdf" download>
                   <BsFillFileEarmarkTextFill />
                 </a>
-              </Link>
             </div>
           </div>
         </div>
