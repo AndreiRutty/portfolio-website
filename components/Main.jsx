@@ -10,16 +10,16 @@ const Main = () => {
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
         <div>
-          <p className="animate__animated animate__fadeInUp animate__delay-2s uppercase text-sm tracking-widest text-gray-600">
+          <p className="animate__animated animate__fadeInUp animate__delay-1s uppercase text-base tracking-widest text-gray-600">
             LET&#39;S BUILD SOMETHING TOGETHER
           </p>
           <h1 className="animate__animated animate__fadeInUp py-4 text-gray-700">
-            Hi, I&#39;m <span className="text-[#5651e5]"> Andrei</span>
+            Hi, I&#39;m <span className="text-[#5651e5]"> Andrei</span>.
           </h1>
-          <h1 className="animate__animated animate__fadeInUp animate__delay-1s py-2 text-gray-700">
+          {/* <h1 className="animate__animated animate__fadeInUp animate__delay-1s py-2 text-gray-700">
             A Web Developer.
-          </h1>
-          <p className="animate__animated animate__fadeInUp animate__delay-2s py-4 text-gray-600 max-w-[70%] m-auto">
+          </h1> */}
+          <p className="animate__animated animate__fadeInUp animate__delay-1s py-4 text-[1.1rem] text-gray-600 max-w-[60%] m-auto">
             I&#39;m a Web Develoer specializing in building exceptional digital
             experiences. Currently, I&#39;m focused on building responsive
             front-end web applications while learning back-end technologies.

@@ -12,15 +12,15 @@ const About = () => {
             About
           </p>
           <h2 className="py-2 text-center md:text-left">Who I Am</h2>
-          <p className="text-center mx-auto md:text-left text-lg py-3 text-gray-600 ">
-            My name is Andrei Rutty a recent highschool graduate and passionate
+          <p className="text-center mx-auto md:text-left text-xl py-3 text-gray-600 ">
+            My name is Andrei Rutty a Computer Science Student and passionate
             programmer focused on Full Stack Developement using web technologies
             to build amazing projects and focusing on solving problems for
             different miches and different industries using the power of
             technology.
           </p>
           <Link href="#projects">
-            <p className="text-center md:text-left py-2 text-gray-600 underline cursor-pointer">
+            <p className="text-center md:text-left py-2 text-gray-600 cursor-pointer hover:text-gray-800 hover:underline transition-all duration-[250ms]">
               Check out some of my lastest project
             </p>
           </Link>
