@@ -1,9 +1,9 @@
 import React from "react";
 import ProjectItem from "./ProjectItem";
 import netflixImg from "../public/assets/projects/netflixii.png";
-import smartBrainImg from "../public/assets/projects/smart-brain.png";
 import animeDatabaseImg from "../public/assets/projects/animedatabase.png";
-import portfolioImg from '../public/assets/projects/portfolio.png';
+import portfolioImg from "../public/assets/projects/portfolio.png";
+import lastHopeImage from "../public/assets/projects/last-hope.png";
 
 const Projects = () => {
   return (
@@ -14,12 +14,6 @@ const Projects = () => {
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
-          <ProjectItem
-            title="Smart Brain"
-            backgroundImg={smartBrainImg}
-            tech="React Js & Node Js"
-            projectUrl="/smartbrain"
-          />
           <ProjectItem
             title="Portfolio Website"
             backgroundImg={portfolioImg}
@@ -37,6 +31,12 @@ const Projects = () => {
             backgroundImg={animeDatabaseImg}
             tech="React Js"
             projectUrl="/theanimedatabase"
+          />
+          <ProjectItem
+            title="Last Hope"
+            backgroundImg={lastHopeImage}
+            tech="HTML CSS Js"
+            projectUrl="/lasthope"
           />
         </div>
       </div>

@@ -1,3 +1,4 @@
+import "../styles/output.css"
 import "../styles/globals.css";
 import Navbar from "../components/Navbar";
 
