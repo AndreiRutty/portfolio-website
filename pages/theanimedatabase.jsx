@@ -32,7 +32,7 @@ const AnimeDatabase = () => {
             displaying movies or series of a particular anime as well as the top
             animes.
           </p>
-          <Link href="https://andreirutty.github.io/anime-database/">
+          <Link href="https://andrei-rutty-anime-database.netlify.app/">
             <a target="_blank" rel="noopener noreferrer">
               <button className="px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-[250ms] submit_button">
                 Demo
