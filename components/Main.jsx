@@ -14,8 +14,8 @@ const Main = () => {
             Hi, I&#39;m <span className="text-[#5651e5]"> Andrei</span>.
           </h1>
           <p className="animate__animated animate__fadeInUp animate__delay-1s py-4 text-[1.1rem] text-gray-600 max-w-[80%] m-auto">
-            A Computer Science student dedicated to learn and explore the ever-evolving
-            world of technology.
+            A Computer Science student dedicated to learn and explore the
+            ever-evolving world of technology.
           </p>
           <p className="animate__animated animate__fadeInUp animate__delay-2s uppercase text-base font-bold tracking-widest text-gray-600">
             LET&#39;S BUILD SOMETHING TOGETHER
@@ -43,9 +43,11 @@ const Main = () => {
               </Link>
             </div>
             <div className="rounded-full shadow-lg bg-white shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-[250ms]">
-              <a href="/Resume.pdf" download>
-                <BsFillFileEarmarkTextFill />
-              </a>
+              <Link href="https://drive.google.com/file/d/1yI_PH75XiySuOk8PuaPfziinEfyjPCZF/view?usp=drive_link">
+                <a target="_blank">
+                  <BsFillFileEarmarkTextFill />
+                </a>
+              </Link>
             </div>
           </div>
         </div>
