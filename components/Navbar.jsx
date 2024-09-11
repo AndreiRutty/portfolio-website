@@ -153,16 +153,12 @@ const Navbar = () => {
               <div className="flex items-center justify-between my-4 w-full">
                 <div className="rounded-full shadow-lg shadow-gray-400 mx-4 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <Link href="https://www.linkedin.com/in/andrei-rutty-049533223/">
-                    <a target="_blank">
                       <FaLinkedinIn />
-                    </a>
                   </Link>
                 </div>
                 <div className="rounded-full shadow-lg shadow-gray-400 mx-4 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
                   <Link href="https://github.com/AndreiRutty">
-                    <a target="_blank">
                       <FaGithub />
-                    </a>
                   </Link>
                 </div>
               </div>

@@ -23,30 +23,22 @@ const Main = () => {
           <div className="animate__animated animate__fadeInUp animate__delay-2s flex items-center justify-between max-w-[330px] m-auto py-4">
             <div className="rounded-full shadow-lg bg-white shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-[250ms]">
               <Link href="https://www.linkedin.com/in/andrei-rutty-049533223/">
-                <a target="_blank">
                   <FaLinkedinIn />
-                </a>
               </Link>
             </div>
             <div className="rounded-full shadow-lg bg-white shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-[250ms]">
               <Link href="https://github.com/AndreiRutty">
-                <a target="_blank">
                   <FaGithub />
-                </a>
               </Link>
             </div>
             <div className="rounded-full shadow-lg bg-white shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-[250ms]">
               <Link href="/#contact">
-                <a>
                   <AiOutlineMail />
-                </a>
               </Link>
             </div>
             <div className="rounded-full shadow-lg bg-white shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-[250ms]">
               <Link href="https://drive.google.com/file/d/1yI_PH75XiySuOk8PuaPfziinEfyjPCZF/view?usp=drive_link">
-                <a target="_blank">
                   <BsFillFileEarmarkTextFill />
-                </a>
               </Link>
             </div>
           </div>

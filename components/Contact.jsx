@@ -59,23 +59,18 @@ const Contact = () => {
                 <div className="flex items-center justify-around py-4">
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-[250ms]">
                     <Link href="https://www.linkedin.com/in/andrei-rutty-049533223/">
-                      <a target="_blank">
-                        <FaLinkedinIn />
-                      </a>
+                      <FaLinkedinIn />
                     </Link>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-[250ms]">
                     <Link href="https://github.com/AndreiRutty">
-                      <a target="_blank">
                         <FaGithub />
-                      </a>
+
                     </Link>
                   </div>
                   <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-[250ms]">
                     <Link href="https://www.facebook.com/profile.php?id=100008701571928">
-                      <a target="_blank">
                         <FaFacebookF />
-                      </a>
                     </Link>
                   </div>
                 </div>

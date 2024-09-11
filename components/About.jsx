@@ -13,8 +13,7 @@ const About = () => {
           </p>
           <h2 className="py-2 text-center md:text-left">Who I Am</h2>
           <p className="text-center mx-auto md:text-left text-lg py-3 text-gray-600 ">
-            Hello, I&#39;m Andrei Rutty, a Computer Science Student at Middlesex
-            University Mauritius. I am a passionate programmer with a strong
+            Hello, I&#39;m Andrei Rutty, a Computer Science Student. I am a passionate programmer with a strong
             focus on software engineering and web development. I utilize various
             web technologies to craft innovative solutions, addressing
             challenges across diverse industries. My commitment lies in
