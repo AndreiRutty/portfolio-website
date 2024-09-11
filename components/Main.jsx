@@ -20,26 +20,23 @@ const Main = () => {
           <p className="animate__animated animate__fadeInUp animate__delay-2s uppercase text-base font-bold tracking-widest text-gray-600">
             LET&#39;S BUILD SOMETHING TOGETHER
           </p>
-          <div className="animate__animated animate__fadeInUp animate__delay-2s flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div className="rounded-full shadow-lg bg-white shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-[250ms]">
-              <Link href="https://www.linkedin.com/in/andrei-rutty-049533223/">
+          <div className="my-6">
+            <div className="animate__animated animate__fadeInUp animate__delay-2s flex items-center justify-between max-w-[330px] m-auto py-4">
+              <div className="rounded-full shadow-lg bg-white shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-[250ms]">
+                <Link href="https://www.linkedin.com/in/andrei-rutty-049533223/">
                   <FaLinkedinIn />
-              </Link>
-            </div>
-            <div className="rounded-full shadow-lg bg-white shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-[250ms]">
-              <Link href="https://github.com/AndreiRutty">
+                </Link>
+              </div>
+              <div className="rounded-full shadow-lg bg-white shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-[250ms]">
+                <Link href="https://github.com/AndreiRutty">
                   <FaGithub />
-              </Link>
-            </div>
-            <div className="rounded-full shadow-lg bg-white shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-[250ms]">
-              <Link href="/#contact">
-                  <AiOutlineMail />
-              </Link>
-            </div>
-            <div className="rounded-full shadow-lg bg-white shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-[250ms]">
-              <Link href="https://drive.google.com/file/d/1yI_PH75XiySuOk8PuaPfziinEfyjPCZF/view?usp=drive_link">
+                </Link>
+              </div>
+              <div className="rounded-full shadow-lg bg-white shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-[250ms]">
+                <Link href="https://drive.google.com/file/d/1yI_PH75XiySuOk8PuaPfziinEfyjPCZF/view?usp=drive_link">
                   <BsFillFileEarmarkTextFill />
-              </Link>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
