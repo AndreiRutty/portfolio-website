@@ -12,7 +12,7 @@ const Skills = () => {
           Skills
         </p>
         <h2 className="py-4 text-center md:text-left">What Tools I Use</h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid mb-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {skills.map(({ skill, icon }) => (
             <SkillsCard key={skill} skill={skill} icon={icon} />
           ))}
