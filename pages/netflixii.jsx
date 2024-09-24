@@ -33,13 +33,13 @@ const NetflixII = () => {
             movie API and displaying different categories. It also features
             horizontal sliding and a featured selection.
           </p>
-          <Link href="https://netflixii.netlify.app/">
+          {/* <Link href="https://netflixii.netlify.app/">
             <a target="_blank" rel="noopener noreferrer">
               <button className="px-8 py-2 mt-4 mr-8 hover:scale-105 ease-in duration-[250ms] submit_button">
                 Demo
               </button>
             </a>
-          </Link>
+          </Link> */}
           <Link href="https://github.com/AndreiRutty/netflix-clone">
             <a target="_blank" rel="noopener noreferrer">
               <button className="px-8 py-2 mt-4 hover:scale-105 ease-in duration-[250ms] submit_button">
